@@ -7,11 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import com.jjq.listshow.R;
 
 /**
+ * recyclerView展示朋友圈
  * Created by jiangjieqiang on 2016/10/26.
  */
 
 public class RecyclerViewFriendActivity extends AppCompatActivity{
-
 
 
     @Override

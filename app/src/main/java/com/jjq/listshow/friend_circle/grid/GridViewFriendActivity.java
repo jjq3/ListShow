@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * gridview展示朋友圈
  * Created by jiangjieqiang on 2016/10/26.
  */
 
@@ -41,5 +42,9 @@ public class GridViewFriendActivity extends AppCompatActivity{
             saidVO.setContent("这是一条很酷的说说");
             saidVOList.add(saidVO);
         }
+
+        FriendAdapter friendAdapter = new FriendAdapter(GridViewFriendActivity.this, saidVOList);
+        listView.setAdapter(friendAdapter);
+
     }
 }
