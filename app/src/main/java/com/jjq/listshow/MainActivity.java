@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jjq.listshow.friend_circle.FriendCircleActivity;
+import com.jjq.listshow.taobao_change.TaobaoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FriendCircleActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //仿淘宝商品页面item样式切换
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TaobaoActivity.class);
                 startActivity(intent);
             }
         });
