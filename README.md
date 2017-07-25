@@ -17,3 +17,8 @@
 
 
 ![image](https://github.com/jjq3/ListShow/blob/master/screenshot/listshow1.gif)
+
+
+2、仿淘宝商品页面布局切换
+
+![image](https://github.com/jjq3/ListShow/blob/master/screenshot/listshow2.gif)
