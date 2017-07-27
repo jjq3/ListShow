@@ -30,4 +30,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:text="单选RecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="多选RecyclerView"
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="单选多选结合的RecyclerView"
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
